@@ -161,7 +161,8 @@ class cosine_similar_text_cn{
 			}
 			$bothWords[] = $bothWord;
 		}
-		$this->hiFreqWords = array_unique( $bothWords );		
+		$this->hiFreqWords = array_unique( $bothWords );
+		return $this->hiFreqWords;
 	}
 	
 }
