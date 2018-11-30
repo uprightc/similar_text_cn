@@ -23,7 +23,7 @@ class cosine_similar_text_cn{
 		$this->encoding   = $encoding;		# 字符串编码
 	}
 	
-	# 为计算余弦相似度 分割 最小匹配子川
+	# 为计算余弦相似度 分割 最小匹配子串
 	private function strSplit2Words( $str ){
 		$strLength = mb_strlen( $str , $this->encoding );
 		$ret = [];
