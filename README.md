@@ -3,7 +3,7 @@
 
 使用方法：
 ***
-'''php
+<code>php
  $str1 = '字符串相似度算法字';
  $str2 = '字符串相似度的计算';
  $act = new cosine_similar_text_cn(  );
@@ -15,4 +15,4 @@
  #计算 高频子串<hr>
  $hiFreqWords = $act->get_high_freq_words( $str1, $str2 );
  print_r( $hiFreqWords );
-'''
+</code>
