@@ -1,6 +1,7 @@
 # similar_text_cn
 中文字符串相似度计算类
-/**
+
+
  *  中文字符串相似度计算类
  *  使用方法：
  *  $str1 = '字符串相似度算法字';
@@ -15,4 +16,4 @@
  *  $hiFreqWords = $act->get_high_freq_words( $str1, $str2 );
  *  print_r( $hiFreqWords );
  *  
- */
+
